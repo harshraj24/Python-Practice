@@ -1,8 +1,8 @@
-def check_number(number):
+def check_number(n):
     i=2
-    while(i*i<=number):
-        if number&i==0:
-            return number/i
+    while(i*i<=n):
+        if n&i==0:
+            return n/i
         i+=1
     return 1
 
